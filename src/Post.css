@@ -1,0 +1,17 @@
+.post{
+    width: fit-content;
+    font-size: 20px;
+}
+.postHeader{
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    align-items: start;
+}
+.post h2{
+    font-size: 40px;
+}
+.postText{
+    padding: 0;
+    margin-bottom: 20px;
+}

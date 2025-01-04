@@ -1,0 +1,38 @@
+#root{
+    --headerLineLight: #000;
+    --headerLineDark: #fff;
+    --textDarkColor: #fff;
+    --textLightColor: #000;
+}
+
+.dark{
+    color: var(--textDarkColor);
+    background: var(--bgDarkColor);
+}
+
+.headerLine.dark{
+    background-color: var(--headerLineDark);
+}
+
+.headerInner{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.headerLogo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.headerLine{
+    background-color: var(--headerLineLight);
+    height: 1px;
+    margin-bottom: 40px;
+}
+.logoImgLight.dark{
+    display: none;
+}
+.logoImgDark.light{
+    display: none;
+}
+

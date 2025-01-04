@@ -1,0 +1,61 @@
+#root{
+    --bgItemColor: grey;
+    --bgItemDarkColor: rgb(58, 58, 58);
+    --bgBtnColor: rgb(99, 98, 98);
+}
+
+.feedItem{
+    background-color: var(--bgItemColor);
+    width: 600px;
+    padding: 12px;
+    position: relative;
+}
+
+.feedItem.dark{
+    background-color: var(--bgItemDarkColor);
+}
+
+.imgContainer{
+    text-align: center;
+    background-color: #999999;
+}
+
+.feedItemHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 16px;
+    align-items: center;
+}
+
+.bodyText{
+    padding: 0 12px;
+    margin-bottom: 12px;
+}
+
+.seeMoreBtn{
+    display: inline;
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
+.seeMoreBtn.dark{
+    color: #fff;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.openBtn{
+    background-color: var(--bgBtnColor);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+.openContainer{
+    display: flex;
+    justify-content: end;
+}

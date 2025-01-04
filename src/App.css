@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  --bgDarkColor: rgb(71, 71, 71);
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.app{
+  color: black;
+  min-height: 100vh;
+}
+.app.dark{
+  background-color: var(--bgDarkColor);
+}
+.themeBtn{
+  font-size: 20px;
+  text-decoration: underline;
+  position:fixed;
+  top: 95%;
+  left: 95%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.themeBtn.dark{
+  color: #fff;
+}
+.themeBtn:hover{
+  opacity: 50%;
+}
+

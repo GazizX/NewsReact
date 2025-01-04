@@ -1,0 +1,31 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.feedItemLine:last-child{
+    display: none;
+}
+
+ul:nth-last-child(1){
+    padding-bottom: 40px;
+}
+
+.loadingGif{
+    margin-top: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+.feedItemLine{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.feedItemLine.dark{
+    background-color: #fff;
+}
